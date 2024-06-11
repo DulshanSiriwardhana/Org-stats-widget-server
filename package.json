@@ -1,0 +1,12 @@
+{
+  "name": "org-stats-widget-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "start": "node index.js"
+  },
+  "author": "Dulshan Siriwardhana",
+  "license": "ISC",
+  "description": ""
+}
