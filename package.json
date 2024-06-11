@@ -8,5 +8,9 @@
   },
   "author": "Dulshan Siriwardhana",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.10.0"
+  }
 }
