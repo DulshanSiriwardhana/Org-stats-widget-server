@@ -15,6 +15,7 @@ if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
 
 app.get('/screenshot/:branch', async (req, res) => {
     let options = {};
+    const branch = req.params.branch;
 
     if(process.env.AWS_LAMBDA_FUNCTION_VERSION) {
         options = {
