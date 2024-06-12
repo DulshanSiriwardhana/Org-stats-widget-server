@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "chrome-aws-lambda": "^6",
+    "puppeteer-core": "^6"
   },
   "devDependencies": {
     "puppeteer": "^22.10.0"
