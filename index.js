@@ -78,4 +78,6 @@ app.get('/screenshot/:branch', async (req, res) => {
 });
 */
 
-app.listen(4000);
+app.listen(process.env.PORT || 5000);
+
+module.exports = app;
